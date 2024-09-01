@@ -1,0 +1,29 @@
+:root {
+    background-color: #f0f0f0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --padding: 16px;
+    --blur: 0px;
+    --color: yellow;
+}
+
+img {
+    width: 80vw;
+    height: 60vh;
+    background: var(--color);
+    padding: var(--padding);
+    filter: blur(var(--blur));
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    gap: 16px;
+}
